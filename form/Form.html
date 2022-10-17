@@ -6,14 +6,30 @@
   </head>
   <body>
 
-    <h1>Meu Formulário</h1>
-
-    <form name="signup" method="post" action="#">
+    <h1>Formulário de Cadastro</h1>
+    <div >
+    <form name="signup" method="post" action="#"> 
      <input type="text" name="name" placeholder="Nome"/>
+    </br>
      <input type="number" name="age" placeholder="Idade"/>
+    </br>
      <input type="password" name="password" placeholder="Senha"/>
-     <button type="submit" name="enviar">Enviar</button>
+    </br>
+     <input type="checkbox" name="checkbox"/>
+    </br>
+     <select>
+         <option value="">Selecione o cargo</option>
+         <option value="gerente">Gerente</option>
+         <option value="gerente">Diretor</option>
+         <option value="gerente">Presidente</option>
+     </select>
+    </br>
+     <textarea name="textarea" placeholder="fale sobre você"></textarea>
+    </br>
+     <button type="button" name="enviar">Enviar</button>
+
     </form>
+  </div>
     
 </body>
 </html>
